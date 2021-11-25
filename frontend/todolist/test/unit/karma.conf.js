@@ -28,6 +28,7 @@ module.exports = function karmaConfig (config) {
         { type: 'lcov', subdir: '.' },
         { type: 'text-summary' }
       ]
-    }
+    },
+    // browserNoActivityTimeout: 60000, // Note: default value (10000) is not enough`
   })
 }

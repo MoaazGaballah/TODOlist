@@ -11,7 +11,7 @@
 
 <script>
 export default {
-  name: "List",
+  name: 'List',
   data () {
     return {
       listItems: ['buy food', 'play games', 'sleep'],
@@ -19,9 +19,9 @@ export default {
     }
   },
   methods: {
-    addItemToList() {
-      this.listItems.push(this.newItem);
-      this.newItem = '';
+    addItemToList () {
+      this.listItems.push(this.newItem)
+      this.newItem = ''
     }
   }
 }
