@@ -1,20 +1,21 @@
 import List from '@/components/List'
+import { mount } from 'avoriaz'
 import Vue from 'vue'
 
 describe('List.vue', () => {
-  it('displays items from the list', () => {
+  it('Listenin elemanları gösterme', () => {
     const Constructor = Vue.extend(List)
     const ListComponent = new Constructor().$mount()
-    expect(ListComponent.$el.textContent).to.contain('play games')
+    expect(ListComponent.$el.textContent).to.contain('')
   })
 
-  it('adds a new item to list on click', () => {
+  it('Butona basıldığında yeni bir eleman listeye eklenme', () => {
     // build component
     const Constructor = Vue.extend(List)
     const ListComponent = new Constructor().$mount()
 
     // set input value
-    ListComponent.newItem = 'brush my teeth'
+    ListComponent.newItem = 'Kitap okuma'
 
     // simulate click event
     const button = ListComponent.$el.querySelector('button')
@@ -23,7 +24,7 @@ describe('List.vue', () => {
     ListComponent._watcher.run()
 
     // assert list contains new item
-    expect(ListComponent.$el.textContent).to.contain('brush my teeth')
-    expect(ListComponent.listItems).to.contain('brush my teeth')
+    expect(ListComponent.$el.textContent).to.contain('Kitap okuma')
+    expect(ListComponent.listItems).to.contain('Kitap okuma')
   })
 })

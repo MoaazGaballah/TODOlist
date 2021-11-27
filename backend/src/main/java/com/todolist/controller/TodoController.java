@@ -10,6 +10,7 @@ import org.springframework.web.server.ResponseStatusException;
 @RestController
 @RequestMapping("/todo-control")
 @RequiredArgsConstructor
+@CrossOrigin
 public class TodoController {
 
     private final TodoService todoService;
