@@ -43,4 +43,4 @@ resimde görüldüğü gibi kolayca eklenmiş olur.
 - Dekomantasyonda anlatılan **Pipeline Automation** yapamadım, ve her geliştirme için test, build, git repoya push yapılması ve deploy çıkılması gerekiyor.
 - kısıtlı bir zamanda daha çok java ya hakim olduğum için modern modern language(rust, golang, elixir, kotlin, clojure etc.) ile yazamadım, ve Java tercih ettim.
 
-İNŞALLAH kısmet olursa bu eksikleri kendimi daha da geliştirerek, bu eksikleri avantaja en kısa zamanda dönüştürmeyi düşünüyorum.
+İNŞALLAH kısmet olursa bu eksikleri kendimi daha da geliştirerek, bu eksikleri avantaja en kısa zamanda dönüştüreceğim.
