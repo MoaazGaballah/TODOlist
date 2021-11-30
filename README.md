@@ -28,6 +28,9 @@ Vue kısmı ise hem hello(Ana sayfa) hem de to-do(ikincil sayfa) için iki kompo
 ## Kullanım ve test
 Proje prototipi, [buradan](https://modanisa-todo.herokuapp.com/#/) ana sayfaya erişilebilir olup, TODO listeye ise [buradan](https://modanisa-todo.herokuapp.com/#/to-do) erişilebilirmektedir.
 
+Not: ücretsiz bir sonucuda deploy çıkıldığı için, ilk defa sayfa açarken yavaşlık yaşanabilir, ama sonraki denemelerde normal olur. 
+
+
 Örneğin 
 
 ![alt text](https://github.com/MoaazGaballah/TODOlist/blob/main/backend/Screenshot%20(70).png)
